@@ -15,6 +15,7 @@
 落第8子,第2子消失,第3子变暗;以此类推。
 
 ## 效果图
+[体验地址](http://ttt.scyytc.com/)
 ![](./public/rendering.png)
 
 

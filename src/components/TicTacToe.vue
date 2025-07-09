@@ -315,8 +315,8 @@ const gameStatusText = computed(() => {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   margin: 20px auto;
   border: 2px solid var(--ep-border-color);
   border-radius: 8px;
@@ -331,7 +331,7 @@ const gameStatusText = computed(() => {
   border: 1px solid var(--ep-border-color-light);
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bold;
   user-select: none;
   width: 100%;
@@ -420,8 +420,8 @@ const gameStatusText = computed(() => {
   }
 
   .game-board {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
   }
 
   .cell {

@@ -9,10 +9,10 @@ import { toggleDark } from '~/composables'
     <el-menu-item index="/">
       <div class="flex items-center justify-center gap-2">
         <div class="text-xl" i-ep-element-plus />
-        <span>Element Plus</span>
+        <span>超级井字棋</span>
       </div>
     </el-menu-item>
-    <el-sub-menu index="2">
+<!--    <el-sub-menu index="2">
       <template #title>
         Workspace
       </template>
@@ -45,7 +45,7 @@ import { toggleDark } from '~/composables'
     </el-menu-item>
     <el-menu-item index="4">
       Orders
-    </el-menu-item>
+    </el-menu-item>-->
 
     <el-menu-item h="full" @click="toggleDark()">
       <button

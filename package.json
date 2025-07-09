@@ -7,7 +7,7 @@
   "license": "MIT",
   "homepage": "https://vite-starter.element-plus.org",
   "repository": {
-    "url": "https://github.com/element-plus/element-plus-vite-starter"
+    "url": "https://github.com/wangle201210/tic-tac-toe"
   },
   "scripts": {
     "dev": "vite",

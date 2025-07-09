@@ -1,16 +1,22 @@
-# element-plus-vite-starter
+# tic-tac-toe
 
-> A starter kit for Element Plus with Vite
+超级井字棋
 
-- Preview: <https://vite-starter.element-plus.org>
+## 规则
 
-This is an example of on-demand element-plus with [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components).
+双方轮流走棋,默认X先行,〇后行,先完成三子连线者获胜!
 
-> If you want to import all, it may be so simple that no examples are needed. Just follow [quickstart | Docs](https://element-plus.org/zh-CN/guide/quickstart.html) and import them.
+屏幕仅显示最新六子位置,其余自动消除,消除规则如下:
 
-If you just want an on-demand import example `manually`, you can check [unplugin-element-plus/examples/vite](https://github.com/element-plus/unplugin-element-plus/tree/main/examples/vite).
+落第6子,第1子变暗;
 
-If you want to a nuxt starter, see [element-plus-nuxt-starter](https://github.com/element-plus/element-plus-nuxt-starter/).
+落第7子,第1子消失,第2子变暗;
+
+落第8子,第2子消失,第3子变暗;以此类推。
+
+## 效果图
+![](./public/rendering.png)
+
 
 ## Project setup
 
@@ -36,12 +42,8 @@ npm run build
 ## Usage
 
 ```bash
-git clone https://github.com/element-plus/element-plus-vite-starter
-cd element-plus-vite-starter
+git clone https://github.com/wangle201210/tic-tac-toe
+cd tic-tac-toe
 npm i
 npm run dev
 ```
-
-### Custom theme
-
-See `src/styles/element/index.scss`.
